@@ -1,3 +1,8 @@
+## 1.1.0
+
+- Add support for protobuf v5 and v6. The protobuf version constraint is now `>=4.0.0 <7.0.0`.
+- Update code generation to use protoc_plugin v25.0.0 which removes deprecated `createRepeated()` methods.
+
 ## 1.0.0
 
 - First stable release of Connect for Dart!
