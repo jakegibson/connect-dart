@@ -111,7 +111,6 @@ class Type extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static Type create() => Type._();
   Type createEmptyInstance() => create();
-  static $pb.PbList<Type> createRepeated() => $pb.PbList<Type>();
   @$core.pragma('dart2js:noInline')
   static Type getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Type>(create);
@@ -279,7 +278,6 @@ class Field extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static Field create() => Field._();
   Field createEmptyInstance() => create();
-  static $pb.PbList<Field> createRepeated() => $pb.PbList<Field>();
   @$core.pragma('dart2js:noInline')
   static Field getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Field>(create);
@@ -482,7 +480,6 @@ class Enum extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static Enum create() => Enum._();
   Enum createEmptyInstance() => create();
-  static $pb.PbList<Enum> createRepeated() => $pb.PbList<Enum>();
   @$core.pragma('dart2js:noInline')
   static Enum getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Enum>(create);
@@ -604,7 +601,6 @@ class EnumValue extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static EnumValue create() => EnumValue._();
   EnumValue createEmptyInstance() => create();
-  static $pb.PbList<EnumValue> createRepeated() => $pb.PbList<EnumValue>();
   @$core.pragma('dart2js:noInline')
   static EnumValue getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<EnumValue>(create);
@@ -689,7 +685,6 @@ class Option extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static Option create() => Option._();
   Option createEmptyInstance() => create();
-  static $pb.PbList<Option> createRepeated() => $pb.PbList<Option>();
   @$core.pragma('dart2js:noInline')
   static Option getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Option>(create);

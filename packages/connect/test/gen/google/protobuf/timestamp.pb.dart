@@ -166,7 +166,6 @@ class Timestamp extends $pb.GeneratedMessage with $mixin.TimestampMixin {
   @$core.pragma('dart2js:noInline')
   static Timestamp create() => Timestamp._();
   Timestamp createEmptyInstance() => create();
-  static $pb.PbList<Timestamp> createRepeated() => $pb.PbList<Timestamp>();
   @$core.pragma('dart2js:noInline')
   static Timestamp getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Timestamp>(create);

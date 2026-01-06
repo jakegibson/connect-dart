@@ -270,7 +270,6 @@ class FieldMask extends $pb.GeneratedMessage with $mixin.FieldMaskMixin {
   @$core.pragma('dart2js:noInline')
   static FieldMask create() => FieldMask._();
   FieldMask createEmptyInstance() => create();
-  static $pb.PbList<FieldMask> createRepeated() => $pb.PbList<FieldMask>();
   @$core.pragma('dart2js:noInline')
   static FieldMask getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<FieldMask>(create);

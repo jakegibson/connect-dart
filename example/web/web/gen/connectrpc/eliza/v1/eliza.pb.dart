@@ -70,7 +70,6 @@ class SayRequest extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static SayRequest create() => SayRequest._();
   SayRequest createEmptyInstance() => create();
-  static $pb.PbList<SayRequest> createRepeated() => $pb.PbList<SayRequest>();
   @$core.pragma('dart2js:noInline')
   static SayRequest getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<SayRequest>(create);
@@ -132,7 +131,6 @@ class SayResponse extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static SayResponse create() => SayResponse._();
   SayResponse createEmptyInstance() => create();
-  static $pb.PbList<SayResponse> createRepeated() => $pb.PbList<SayResponse>();
   @$core.pragma('dart2js:noInline')
   static SayResponse getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<SayResponse>(create);
@@ -195,8 +193,6 @@ class ConverseRequest extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static ConverseRequest create() => ConverseRequest._();
   ConverseRequest createEmptyInstance() => create();
-  static $pb.PbList<ConverseRequest> createRepeated() =>
-      $pb.PbList<ConverseRequest>();
   @$core.pragma('dart2js:noInline')
   static ConverseRequest getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<ConverseRequest>(create);
@@ -259,8 +255,6 @@ class ConverseResponse extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static ConverseResponse create() => ConverseResponse._();
   ConverseResponse createEmptyInstance() => create();
-  static $pb.PbList<ConverseResponse> createRepeated() =>
-      $pb.PbList<ConverseResponse>();
   @$core.pragma('dart2js:noInline')
   static ConverseResponse getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<ConverseResponse>(create);
@@ -322,8 +316,6 @@ class IntroduceRequest extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static IntroduceRequest create() => IntroduceRequest._();
   IntroduceRequest createEmptyInstance() => create();
-  static $pb.PbList<IntroduceRequest> createRepeated() =>
-      $pb.PbList<IntroduceRequest>();
   @$core.pragma('dart2js:noInline')
   static IntroduceRequest getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<IntroduceRequest>(create);
@@ -385,8 +377,6 @@ class IntroduceResponse extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static IntroduceResponse create() => IntroduceResponse._();
   IntroduceResponse createEmptyInstance() => create();
-  static $pb.PbList<IntroduceResponse> createRepeated() =>
-      $pb.PbList<IntroduceResponse>();
   @$core.pragma('dart2js:noInline')
   static IntroduceResponse getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<IntroduceResponse>(create);

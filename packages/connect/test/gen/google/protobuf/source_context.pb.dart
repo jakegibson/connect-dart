@@ -71,8 +71,6 @@ class SourceContext extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static SourceContext create() => SourceContext._();
   SourceContext createEmptyInstance() => create();
-  static $pb.PbList<SourceContext> createRepeated() =>
-      $pb.PbList<SourceContext>();
   @$core.pragma('dart2js:noInline')
   static SourceContext getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<SourceContext>(create);

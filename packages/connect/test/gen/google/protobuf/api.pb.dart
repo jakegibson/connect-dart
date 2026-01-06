@@ -118,7 +118,6 @@ class Api extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static Api create() => Api._();
   Api createEmptyInstance() => create();
-  static $pb.PbList<Api> createRepeated() => $pb.PbList<Api>();
   @$core.pragma('dart2js:noInline')
   static Api getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Api>(create);
@@ -287,7 +286,6 @@ class Method extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static Method create() => Method._();
   Method createEmptyInstance() => create();
-  static $pb.PbList<Method> createRepeated() => $pb.PbList<Method>();
   @$core.pragma('dart2js:noInline')
   static Method getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Method>(create);
@@ -500,7 +498,6 @@ class Mixin extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static Mixin create() => Mixin._();
   Mixin createEmptyInstance() => create();
-  static $pb.PbList<Mixin> createRepeated() => $pb.PbList<Mixin>();
   @$core.pragma('dart2js:noInline')
   static Mixin getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Mixin>(create);

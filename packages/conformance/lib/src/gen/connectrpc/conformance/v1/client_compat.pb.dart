@@ -107,8 +107,6 @@ class ClientCompatRequest_Cancel extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static ClientCompatRequest_Cancel create() => ClientCompatRequest_Cancel._();
   ClientCompatRequest_Cancel createEmptyInstance() => create();
-  static $pb.PbList<ClientCompatRequest_Cancel> createRepeated() =>
-      $pb.PbList<ClientCompatRequest_Cancel>();
   @$core.pragma('dart2js:noInline')
   static ClientCompatRequest_Cancel getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<ClientCompatRequest_Cancel>(create);
@@ -353,8 +351,6 @@ class ClientCompatRequest extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static ClientCompatRequest create() => ClientCompatRequest._();
   ClientCompatRequest createEmptyInstance() => create();
-  static $pb.PbList<ClientCompatRequest> createRepeated() =>
-      $pb.PbList<ClientCompatRequest>();
   @$core.pragma('dart2js:noInline')
   static ClientCompatRequest getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<ClientCompatRequest>(create);
@@ -715,8 +711,6 @@ class ClientCompatResponse extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static ClientCompatResponse create() => ClientCompatResponse._();
   ClientCompatResponse createEmptyInstance() => create();
-  static $pb.PbList<ClientCompatResponse> createRepeated() =>
-      $pb.PbList<ClientCompatResponse>();
   @$core.pragma('dart2js:noInline')
   static ClientCompatResponse getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<ClientCompatResponse>(create);
@@ -852,8 +846,6 @@ class ClientResponseResult extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static ClientResponseResult create() => ClientResponseResult._();
   ClientResponseResult createEmptyInstance() => create();
-  static $pb.PbList<ClientResponseResult> createRepeated() =>
-      $pb.PbList<ClientResponseResult>();
   @$core.pragma('dart2js:noInline')
   static ClientResponseResult getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<ClientResponseResult>(create);
@@ -976,8 +968,6 @@ class ClientErrorResult extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static ClientErrorResult create() => ClientErrorResult._();
   ClientErrorResult createEmptyInstance() => create();
-  static $pb.PbList<ClientErrorResult> createRepeated() =>
-      $pb.PbList<ClientErrorResult>();
   @$core.pragma('dart2js:noInline')
   static ClientErrorResult getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<ClientErrorResult>(create);
@@ -1063,7 +1053,6 @@ class WireDetails extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static WireDetails create() => WireDetails._();
   WireDetails createEmptyInstance() => create();
-  static $pb.PbList<WireDetails> createRepeated() => $pb.PbList<WireDetails>();
   @$core.pragma('dart2js:noInline')
   static WireDetails getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<WireDetails>(create);

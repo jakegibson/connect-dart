@@ -71,7 +71,6 @@ class SayRequest extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static SayRequest create() => SayRequest._();
   SayRequest createEmptyInstance() => create();
-  static $pb.PbList<SayRequest> createRepeated() => $pb.PbList<SayRequest>();
   @$core.pragma('dart2js:noInline')
   static SayRequest getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<SayRequest>(create);
@@ -132,7 +131,6 @@ class SayResponse extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static SayResponse create() => SayResponse._();
   SayResponse createEmptyInstance() => create();
-  static $pb.PbList<SayResponse> createRepeated() => $pb.PbList<SayResponse>();
   @$core.pragma('dart2js:noInline')
   static SayResponse getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<SayResponse>(create);

@@ -76,7 +76,6 @@ class DoubleValue extends $pb.GeneratedMessage with $mixin.DoubleValueMixin {
   @$core.pragma('dart2js:noInline')
   static DoubleValue create() => DoubleValue._();
   DoubleValue createEmptyInstance() => create();
-  static $pb.PbList<DoubleValue> createRepeated() => $pb.PbList<DoubleValue>();
   @$core.pragma('dart2js:noInline')
   static DoubleValue getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<DoubleValue>(create);
@@ -142,7 +141,6 @@ class FloatValue extends $pb.GeneratedMessage with $mixin.FloatValueMixin {
   @$core.pragma('dart2js:noInline')
   static FloatValue create() => FloatValue._();
   FloatValue createEmptyInstance() => create();
-  static $pb.PbList<FloatValue> createRepeated() => $pb.PbList<FloatValue>();
   @$core.pragma('dart2js:noInline')
   static FloatValue getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<FloatValue>(create);
@@ -208,7 +206,6 @@ class Int64Value extends $pb.GeneratedMessage with $mixin.Int64ValueMixin {
   @$core.pragma('dart2js:noInline')
   static Int64Value create() => Int64Value._();
   Int64Value createEmptyInstance() => create();
-  static $pb.PbList<Int64Value> createRepeated() => $pb.PbList<Int64Value>();
   @$core.pragma('dart2js:noInline')
   static Int64Value getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<Int64Value>(create);
@@ -276,7 +273,6 @@ class UInt64Value extends $pb.GeneratedMessage with $mixin.UInt64ValueMixin {
   @$core.pragma('dart2js:noInline')
   static UInt64Value create() => UInt64Value._();
   UInt64Value createEmptyInstance() => create();
-  static $pb.PbList<UInt64Value> createRepeated() => $pb.PbList<UInt64Value>();
   @$core.pragma('dart2js:noInline')
   static UInt64Value getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<UInt64Value>(create);
@@ -342,7 +338,6 @@ class Int32Value extends $pb.GeneratedMessage with $mixin.Int32ValueMixin {
   @$core.pragma('dart2js:noInline')
   static Int32Value create() => Int32Value._();
   Int32Value createEmptyInstance() => create();
-  static $pb.PbList<Int32Value> createRepeated() => $pb.PbList<Int32Value>();
   @$core.pragma('dart2js:noInline')
   static Int32Value getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<Int32Value>(create);
@@ -409,7 +404,6 @@ class UInt32Value extends $pb.GeneratedMessage with $mixin.UInt32ValueMixin {
   @$core.pragma('dart2js:noInline')
   static UInt32Value create() => UInt32Value._();
   UInt32Value createEmptyInstance() => create();
-  static $pb.PbList<UInt32Value> createRepeated() => $pb.PbList<UInt32Value>();
   @$core.pragma('dart2js:noInline')
   static UInt32Value getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<UInt32Value>(create);
@@ -475,7 +469,6 @@ class BoolValue extends $pb.GeneratedMessage with $mixin.BoolValueMixin {
   @$core.pragma('dart2js:noInline')
   static BoolValue create() => BoolValue._();
   BoolValue createEmptyInstance() => create();
-  static $pb.PbList<BoolValue> createRepeated() => $pb.PbList<BoolValue>();
   @$core.pragma('dart2js:noInline')
   static BoolValue getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<BoolValue>(create);
@@ -542,7 +535,6 @@ class StringValue extends $pb.GeneratedMessage with $mixin.StringValueMixin {
   @$core.pragma('dart2js:noInline')
   static StringValue create() => StringValue._();
   StringValue createEmptyInstance() => create();
-  static $pb.PbList<StringValue> createRepeated() => $pb.PbList<StringValue>();
   @$core.pragma('dart2js:noInline')
   static StringValue getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<StringValue>(create);
@@ -609,7 +601,6 @@ class BytesValue extends $pb.GeneratedMessage with $mixin.BytesValueMixin {
   @$core.pragma('dart2js:noInline')
   static BytesValue create() => BytesValue._();
   BytesValue createEmptyInstance() => create();
-  static $pb.PbList<BytesValue> createRepeated() => $pb.PbList<BytesValue>();
   @$core.pragma('dart2js:noInline')
   static BytesValue getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<BytesValue>(create);

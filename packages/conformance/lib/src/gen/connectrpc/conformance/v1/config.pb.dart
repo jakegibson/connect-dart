@@ -89,7 +89,6 @@ class Config extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static Config create() => Config._();
   Config createEmptyInstance() => create();
-  static $pb.PbList<Config> createRepeated() => $pb.PbList<Config>();
   @$core.pragma('dart2js:noInline')
   static Config getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Config>(create);
@@ -241,7 +240,6 @@ class Features extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static Features create() => Features._();
   Features createEmptyInstance() => create();
-  static $pb.PbList<Features> createRepeated() => $pb.PbList<Features>();
   @$core.pragma('dart2js:noInline')
   static Features getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Features>(create);
@@ -471,7 +469,6 @@ class ConfigCase extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static ConfigCase create() => ConfigCase._();
   ConfigCase createEmptyInstance() => create();
-  static $pb.PbList<ConfigCase> createRepeated() => $pb.PbList<ConfigCase>();
   @$core.pragma('dart2js:noInline')
   static ConfigCase getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<ConfigCase>(create);
@@ -637,7 +634,6 @@ class TLSCreds extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static TLSCreds create() => TLSCreds._();
   TLSCreds createEmptyInstance() => create();
-  static $pb.PbList<TLSCreds> createRepeated() => $pb.PbList<TLSCreds>();
   @$core.pragma('dart2js:noInline')
   static TLSCreds getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<TLSCreds>(create);
