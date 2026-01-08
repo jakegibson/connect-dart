@@ -160,7 +160,6 @@ class TestSuite extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static TestSuite create() => TestSuite._();
   TestSuite createEmptyInstance() => create();
-  static $pb.PbList<TestSuite> createRepeated() => $pb.PbList<TestSuite>();
   @$core.pragma('dart2js:noInline')
   static TestSuite getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<TestSuite>(create);
@@ -337,8 +336,6 @@ class TestCase_ExpandedSize extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static TestCase_ExpandedSize create() => TestCase_ExpandedSize._();
   TestCase_ExpandedSize createEmptyInstance() => create();
-  static $pb.PbList<TestCase_ExpandedSize> createRepeated() =>
-      $pb.PbList<TestCase_ExpandedSize>();
   @$core.pragma('dart2js:noInline')
   static TestCase_ExpandedSize getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<TestCase_ExpandedSize>(create);
@@ -425,7 +422,6 @@ class TestCase extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static TestCase create() => TestCase._();
   TestCase createEmptyInstance() => create();
-  static $pb.PbList<TestCase> createRepeated() => $pb.PbList<TestCase>();
   @$core.pragma('dart2js:noInline')
   static TestCase getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<TestCase>(create);

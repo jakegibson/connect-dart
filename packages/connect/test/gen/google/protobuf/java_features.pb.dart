@@ -81,8 +81,6 @@ class JavaFeatures extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static JavaFeatures create() => JavaFeatures._();
   JavaFeatures createEmptyInstance() => create();
-  static $pb.PbList<JavaFeatures> createRepeated() =>
-      $pb.PbList<JavaFeatures>();
   @$core.pragma('dart2js:noInline')
   static JavaFeatures getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<JavaFeatures>(create);

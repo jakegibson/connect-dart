@@ -162,7 +162,6 @@ class Any extends $pb.GeneratedMessage with $mixin.AnyMixin {
   @$core.pragma('dart2js:noInline')
   static Any create() => Any._();
   Any createEmptyInstance() => create();
-  static $pb.PbList<Any> createRepeated() => $pb.PbList<Any>();
   @$core.pragma('dart2js:noInline')
   static Any getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Any>(create);

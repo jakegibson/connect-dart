@@ -121,8 +121,6 @@ class ServerCompatRequest extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static ServerCompatRequest create() => ServerCompatRequest._();
   ServerCompatRequest createEmptyInstance() => create();
-  static $pb.PbList<ServerCompatRequest> createRepeated() =>
-      $pb.PbList<ServerCompatRequest>();
   @$core.pragma('dart2js:noInline')
   static ServerCompatRequest getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<ServerCompatRequest>(create);
@@ -298,8 +296,6 @@ class ServerCompatResponse extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static ServerCompatResponse create() => ServerCompatResponse._();
   ServerCompatResponse createEmptyInstance() => create();
-  static $pb.PbList<ServerCompatResponse> createRepeated() =>
-      $pb.PbList<ServerCompatResponse>();
   @$core.pragma('dart2js:noInline')
   static ServerCompatResponse getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<ServerCompatResponse>(create);

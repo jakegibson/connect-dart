@@ -81,7 +81,6 @@ class CppFeatures extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static CppFeatures create() => CppFeatures._();
   CppFeatures createEmptyInstance() => create();
-  static $pb.PbList<CppFeatures> createRepeated() => $pb.PbList<CppFeatures>();
   @$core.pragma('dart2js:noInline')
   static CppFeatures getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<CppFeatures>(create);

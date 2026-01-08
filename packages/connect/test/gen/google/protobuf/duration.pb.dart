@@ -135,7 +135,6 @@ class Duration extends $pb.GeneratedMessage with $mixin.DurationMixin {
   @$core.pragma('dart2js:noInline')
   static Duration create() => Duration._();
   Duration createEmptyInstance() => create();
-  static $pb.PbList<Duration> createRepeated() => $pb.PbList<Duration>();
   @$core.pragma('dart2js:noInline')
   static Duration getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Duration>(create);
