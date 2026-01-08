@@ -140,8 +140,7 @@ class Any extends $pb.GeneratedMessage with $mixin.AnyMixin {
       package:
           const $pb.PackageName(_omitMessageNames ? '' : 'google.protobuf'),
       createEmptyInstance: create,
-      toProto3Json: $mixin.AnyMixin.toProto3JsonHelper,
-      fromProto3Json: $mixin.AnyMixin.fromProto3JsonHelper)
+      wellKnownType: $mixin.WellKnownType.any)
     ..aOS(1, _omitFieldNames ? '' : 'typeUrl')
     ..a<$core.List<$core.int>>(
         2, _omitFieldNames ? '' : 'value', $pb.PbFieldType.OY)
