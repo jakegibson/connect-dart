@@ -32,12 +32,18 @@ final class Schema {
   /// Whether to print empty files or not.
   final bool keepEmptyFiles;
 
+  /// Whether to import wellknown types from package:protobuf instead of
+  /// generating relative imports. Defaults to true to match the behavior
+  /// of protocolbuffers/dart plugin.
+  final bool wellknownFromPackage;
+
   factory Schema.fromProto(CodeGeneratorRequest proto) {
     final file = <String, FileDescriptorProto>{};
     for (final protoFile in proto.protoFile) {
       file[protoFile.name] = protoFile;
     }
     var keepEmptyFiles = false;
+    var wellknownFromPackage = true;
     if (proto.parameter.isNotEmpty) {
       for (final raw in proto.parameter.split(",")) {
         final parts = raw.split('=');
@@ -50,14 +56,20 @@ final class Schema {
               throw "invalid plugin option 'keep_empty_files' must be a bool, got $value";
             }
             keepEmptyFiles = val;
+          case "wellknown_from_package":
+            final val = value.isEmpty ? true : bool.tryParse(value);
+            if (val == null) {
+              throw "invalid plugin option 'wellknown_from_package' must be a bool, got $value";
+            }
+            wellknownFromPackage = val;
           default:
             throw "Unsupported plugin option $raw";
         }
       }
     }
-    return Schema._(proto.sourceFileDescriptors, file, proto, keepEmptyFiles);
+    return Schema._(proto.sourceFileDescriptors, file, proto, keepEmptyFiles, wellknownFromPackage);
   }
-  Schema._(this.files, this.file, this.proto, this.keepEmptyFiles);
+  Schema._(this.files, this.file, this.proto, this.keepEmptyFiles, this.wellknownFromPackage);
 }
 
 /// Runs the plugin by parsing the [input] into a [CodeGeneratorRequest]
