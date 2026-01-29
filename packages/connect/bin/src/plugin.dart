@@ -180,7 +180,56 @@ extension on GeneratedFile {
     p(["  );"]);
   }
 
+  // Wellknown types that should use package:protobuf imports
+  static const _wellknownTypes = {
+    '.google.protobuf.Any',
+    '.google.protobuf.Duration',
+    '.google.protobuf.Empty',
+    '.google.protobuf.FieldMask',
+    '.google.protobuf.Struct',
+    '.google.protobuf.Value',
+    '.google.protobuf.ListValue',
+    '.google.protobuf.NullValue',
+    '.google.protobuf.Timestamp',
+    '.google.protobuf.DoubleValue',
+    '.google.protobuf.FloatValue',
+    '.google.protobuf.Int64Value',
+    '.google.protobuf.UInt64Value',
+    '.google.protobuf.Int32Value',
+    '.google.protobuf.UInt32Value',
+    '.google.protobuf.BoolValue',
+    '.google.protobuf.StringValue',
+    '.google.protobuf.BytesValue',
+  };
+
+  // Map wellknown type names to their file names in package:protobuf
+  static String? _wellknownTypeFile(String typeName) {
+    if (!typeName.startsWith('.google.protobuf.')) return null;
+    final shortName = typeName.split('.').last;
+    // Map type name to file name
+    if (shortName == 'Any') return 'any';
+    if (shortName == 'Duration') return 'duration';
+    if (shortName == 'Empty') return 'empty';
+    if (shortName == 'FieldMask') return 'field_mask';
+    if (shortName == 'Struct' || shortName == 'Value' ||
+        shortName == 'ListValue' || shortName == 'NullValue') return 'struct';
+    if (shortName == 'Timestamp') return 'timestamp';
+    if (shortName.endsWith('Value')) return 'wrappers'; // All wrapper types
+    return null;
+  }
+
   DartIdentifier importMsg(String typeName) {
+    // Check if it's a wellknown type - use package:protobuf import if enabled
+    if (schema.wellknownFromPackage && _wellknownTypes.contains(typeName)) {
+      final fileName = _wellknownTypeFile(typeName);
+      if (fileName != null) {
+        return DartLibrary(
+          'package:protobuf/well_known_types/google/protobuf/$fileName.pb.dart',
+          'wkt_$fileName',
+        ).import(typeName.split('.').last);
+      }
+    }
+
     for (final file in schema.file.values) {
       if (!typeName.startsWith(".${file.package}")) {
         continue;
